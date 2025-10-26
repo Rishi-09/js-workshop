@@ -21,16 +21,14 @@ You can **clone this repo**, **open it in VS Code**, and **learn by reading + ru
 
 | Module | Topic | Description |
 |:-------|:------|:------------|
-| **01** | [Introduction to JavaScript](./module-01-introduction/) | What JS is, how it works, setup, and linking scripts |
-| **02** | Basics of JavaScript | Syntax, variables, constants, and data types |
-| **03** | Operators | Arithmetic, comparison, logical, ternary, and precedence |
-| **04** | Control Flow | Conditional statements: if, else, switch, truthy/falsy |
-| **05** | Loops | for, while, do...while, for...in, for...of, and optimization |
-| **06** | Functions | Declarations, parameters, scope, and callbacks |
-| **07** | Arrays | Array methods, destructuring, spread/rest |
-| **08** | Objects | Object creation, methods, destructuring, and utilities |
-
-🧩 *Future modules (Advanced JS, DOM, ES6+, Async, etc.) will be added soon.*
+| **01** | [Introduction to JavaScript](./m1-introduction/) | What JS is, how it works, setup, and linking scripts |
+| **02** | [Basics of JavaScript](./m2-basics/) | Syntax, variables, constants, and data types |
+| **03** | [Operators](./m3-operators/) | Arithmetic, comparison, logical, ternary, and precedence |
+| **04** | [Control Flow](./m4-control-flow/) | Conditional statements: if, else, switch, truthy/falsy |
+| **05** | [Loops](./m5-loops/) | for, while, do...while, for...in, for...of, and optimization |
+| **06** | [Functions](./m6-functions/) | Declarations, parameters, scope, and callbacks |
+| **07** | [Arrays](./m7-arrays/) | Array methods, destructuring, spread/rest |
+| **08** | [Objects](./m8-objects/) | Object creation, methods, destructuring, and utilities |
 
 ---
 
