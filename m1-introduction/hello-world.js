@@ -1,12 +1,15 @@
-/*
+
+// It prints a message to the console.
+
+console.log("Hello, World! Welcome to JavaScript.");
 
 
-  Purpose: Introduce the very first JavaScript program
-  Concepts covered:
-    - console.log()
-    - functions and return values
-    - detecting browser vs Node.js environment
+// You can also print numbers and text together
+
+console.log("2 + 3 =", 2 + 3);
+
+// Strings must be inside quotes
+
+console.log("JavaScript makes websites interactive!");
 
 
-*/
-console.log('Hello Javascript!')

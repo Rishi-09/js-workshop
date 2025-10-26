@@ -1,30 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Module 1 – Script Tag Demo</title>
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Script Tag Demo</title>
+</head>
+<body>
+  <h1>Learning JavaScript 🚀</h1>
+  <p>This page shows how JavaScript connects with HTML.</p>
 
-    <!-- 🌐 External JS examples -->
-    <!-- These show different loading behaviors -->
-    <!-- Normal (blocking): executes immediately when encountered -->
-    <script src="./script.js"></script>
+  <!-- Internal Script Example -->
+  <script>
+    console.log("This is an internal script running inside the HTML file!");
+  </script>
 
-    <!-- Deferred: waits until HTML is parsed -->
-    <script src="./script.js" defer></script>
-
-    <!-- Async: loads independently; order not guaranteed -->
-    <script src="./script.js" async></script>
-  </head>
-
-  <body>
-    
-    <!-- Inline script executes immediately where placed -->
-    <script>
-      console.log("Inline script executed ➜ document.readyState:", document.readyState);
-    </script>
-
-    <!-- Common practice: load main script at the end for non-blocking behavior -->
-    <script src="./script.js"></script>
-  </body>
+  <!-- External Script Example -->
+  <script src="script.js"></script>
+</body>
 </html>
