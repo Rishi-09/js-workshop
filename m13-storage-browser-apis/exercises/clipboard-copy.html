@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="copyBtn">Copy!</button>
+  <script>
+    document.getElementById("copyBtn").onclick = () => {
+      navigator.clipboard.writeText("Hello, clipboard!");
+      alert("Copied to clipboard.");
+    };
+  </script>
+</body>
+</html>
