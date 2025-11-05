@@ -8,7 +8,8 @@
 let celsius = 30;
 let fahrenheit = (celsius * 9/5) + 32;
 
-console.log(`${celsius}°C is ${fahrenheit}°F`);
+console.log(`${celsius}°C is ${fahrenheit}°F`); // template literals used to print static and dynamic value
+
 
 
 /*

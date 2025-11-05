@@ -8,14 +8,15 @@ const b = 3;
 
 console.log("a + b =", a + b);
 console.log("a - b =", a - b);
-console.log("a * b =", a * b);
-console.log("a / b =", a / b);
-console.log("a % b =", a % b);
+console.log("a * b =", a * b); // 30
+console.log("a / b =", a / b); // 3.3333
+console.log("a % b =", a % b); // 1 (modulus - remainder)
 console.log("a ** b (power) =", a ** b);
 
 // Assignment
 let x = 5;
-x += 3; // x = x + 3
+x += 3; // x = x + 3 // if x = 5 then now its x = 5 + 3 = 8
+x -= 2; // x = x - 2 // if x = 8 then now its x = 8 - 2 = 6
 console.log("x after += 3:", x);
 
 // Comparison
@@ -23,18 +24,18 @@ console.log("a == '10' =>", a == "10"); // true (coercion)
 console.log("a === '10' =>", a === "10"); // false (strict)
 
 // Logical
-console.log("a > 5 && b < 5 =>", a > 5 && b < 5);
-console.log("a > 20 || b < 5 =>", a > 20 || b < 5);
+console.log("a > 5 && b < 5 =>", a > 5 && b < 5); // true && true = true 
+console.log("a > 20 || b < 5 =>", a > 20 || b < 5);// false || true = true
 
 // Ternary
 const parity = (a % 2 === 0) ? "even" : "odd";
 console.log("a is", parity);
 
 // Pre/post increment
-let i = 0;
+let i = 0; 
 console.log("i (post)++:", i++); // prints 0 then i becomes 1
-console.log("now i:", i);
-console.log("++i:", ++i); // increments then prints
+console.log("now i:", i); // prints 1
+console.log("++i:", ++i); // increments then prints 2
 
 
 // Try it yourself:
