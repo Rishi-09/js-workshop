@@ -9,6 +9,7 @@ const student = {
   subjects: ["JS", "maths"],
   contact: {
     email: "pushpa@example.com",
+    phone: 1234567890,
   },
   greet() {
     return `Hi, I'm ${this.name}`;

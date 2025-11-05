@@ -1,18 +1,27 @@
-/*
-  module-08-objects/destructuring.js
-  Purpose: Demonstrate object destructuring, defaults, nested destructuring, and renaming.
-*/
+// /*
+//   module-08-objects/destructuring.js
+//   Purpose: Demonstrate object destructuring, defaults, nested destructuring, and renaming.
+// */
 
 const hero = {
-  realname: "Steve Rogers",
+  name: "Steve Rogers",
   role: "Captain America",
-  kills:999
+  skills: {},
+  friend:{
+    name:"Tony Stark",
+    role:"Iron Man",
+  }
 };
+hero["age"] = 100;
 
+let obj = {
+  name: "Popatlaal",
+  age: 42,
+  status: "Unmarried",
+};
 // Basic destructuring
 const { realname, role } = hero;
 console.log("Name:", realname, "Role:", role);
-
 
 const config = {
   host: "localhost",
@@ -28,8 +37,13 @@ console.log("hostname:", hostname, "timeout:", timeout);
 const { db: { user: dbUser } = {} } = config;
 console.log("db user:", dbUser);
 
+
+
+
+
 /*
   Try:
-  - Destructure with fallback: const { missing = 'default' } = config;
+  - Destructure with fallback: const { missing = 'default' } =
+config;
   - Use destructuring in function parameters.
 */

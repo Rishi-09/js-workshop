@@ -1,8 +1,13 @@
+
 /*
   closures.js
   Demonstrates closures and typical use-cases (counter factory).
 */
 
+console.log(rex);//undefind
+var rex=0;//var add itself to the window object
+let a = 0;
+adder(2,3);
 function makeCounter() {
   let count = 0;
   return function() {
@@ -51,3 +56,32 @@ function adder(x) {
 }
 const add5 = adder(5);
 console.log("add5(10) ->", add5(10)); // 15
+
+//Execution context example
+let globalvar  = "hello";
+function outer(){
+  let outervar = "world";
+  function inner(){
+    let cd = "dvd";
+    console.log(globalvar);
+    console.log(outervar);
+  }
+  inner();
+}
+outer();
+
+
+//Lexical scope example
+function father() {
+  let money = 1000;
+
+  function child() {
+    console.log("Child can use father's money:", money);
+  }
+
+  child();
+}
+
+father();
+
+
