@@ -31,7 +31,7 @@ function startTimer() {
                 `;
             return;
         }
-        timer--;
+        timer--; 
         timerValue.innerText = timer;
     }, 1000);
 }
@@ -45,7 +45,7 @@ function generateNumbers() {
     numberContainer.innerHTML = ''
     for (let i = 1; i <= numberOfCircles; i++) {
 
-        let divElem = document.createElement('div')
+        let divElem = document.createElement('div') 
         divElem.className = 'circle';
         let number = Math.ceil(Math.random() * 10)
         divElem.innerText = number;
